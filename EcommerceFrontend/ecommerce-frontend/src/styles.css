@@ -1,0 +1,31 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926'); */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.btn-blue {
+  background-color: darkblue;
+  color: white; /* Change text color to white for better contrast */
+}
+
+.btn-purple {
+  background-color: lightskyblue;
+  color: white; /* Change text color to white for better contrast */
+}
+
+.btn-blue:hover {
+  background-color: lightskyblue; /* Darker shade on hover */
+}
+
+.btn-purple:hover {
+  background-color: indigo; /* Darker shade on hover */
+}
